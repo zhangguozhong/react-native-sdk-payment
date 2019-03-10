@@ -30,7 +30,7 @@ RCT_EXPORT_MODULE()
  支付
  @param NSInteger type 1:支付宝 2:微信 orderInfo:订单参数
  */
-RCT_EXPORT_METHOD(onPay:(NSInteger)type appScheme:(NSString *)appScheme orderInfo:(NSDictionary *)orderInfo successCallback:(RCTResponseSenderBlock)successCallback failureCallback:(RCTResponseSenderBlock)failureCallback) {
+RCT_EXPORT_METHOD(onPay:(NSInteger)type orderInfo:(NSDictionary *)orderInfo appScheme:(NSString *)appScheme successCallback:(RCTResponseSenderBlock)successCallback failureCallback:(RCTResponseSenderBlock)failureCallback) {
     RNPayment *payment = [RNPayment shareInstance];
     payment.successCallback = successCallback;
     payment.failureCallback = failureCallback;
