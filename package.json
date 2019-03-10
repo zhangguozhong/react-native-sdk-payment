@@ -1,0 +1,27 @@
+{
+  "name": "react-native-sdk-payment",
+  "version": "1.0.0",
+  "description": "react-native集成支付宝支付，同时支持ios和android。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "pay",
+    "alipay"
+  ],
+  "author": "zhangguozhong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangguozhong/react-native-sdk-payment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangguozhong/react-native-sdk-payment/issues"
+  },
+  "homepage": "https://github.com/zhangguozhong/react-native-sdk-payment#readme",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
