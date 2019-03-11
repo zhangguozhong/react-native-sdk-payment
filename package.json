@@ -1,7 +1,7 @@
 {
   "name": "react-native-sdk-payment",
-  "version": "1.0.3",
-  "description": "react-native集成支付宝支付，同时支持ios和android。",
+  "version": "1.0.4",
+  "description": "react-native支付宝支付，同时支持ios和android。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
