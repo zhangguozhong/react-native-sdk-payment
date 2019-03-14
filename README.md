@@ -38,9 +38,9 @@
 
 ## Usage
 ```javascript
-import RNPayment from 'react-native-sdk-payment';
+import PaymentSDK from 'react-native-sdk-payment';
 
-RNPayment.onPay(1,{ order:'123' },'appScheme',()=> {
+PaymentSDK.onPay(1,{ order:'123' },'appScheme',()=> {
     console.log('成功回调');
 },() => {
     console.log('失败回调');
